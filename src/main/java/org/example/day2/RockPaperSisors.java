@@ -5,14 +5,13 @@ import org.example.utils.ReadFile;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class RockPaperSisors {
 
     public static void exercise() throws IOException {
         Path path = Paths.get(ReadFile.getInstance().getFile("Day2"));
+
         Scanner scanner = new Scanner(path);
         Map<String, Boolean> rules = new HashMap<>(){
             {
