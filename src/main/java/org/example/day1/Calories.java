@@ -15,7 +15,7 @@ public class Calories {
         int sum = 0;
         int first = 0, seccond = 0, third = 0;
 
-//        read line by line
+//      read line by line
         while(scanner.hasNextLine()){
             String line = scanner.nextLine();
 

@@ -32,15 +32,13 @@ public class Rucksack {
                 if(last_half.contains(letter+"")){
                     if(!chars.contains(letter)){
                         chars.add(letter);
+                        int value = letter;
+                        if(value > 96){
+                            sum += value-96;
+                        }else{
+                            sum+= value-64+26;
+                        }
                     }
-                }
-            }
-            for (Character ch : chars){
-                int value = (int)ch;
-                if(value > 96){
-                    sum += value-96;
-                }else{
-                    sum+= value-64+26;
                 }
             }
 
