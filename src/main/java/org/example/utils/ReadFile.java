@@ -1,9 +1,6 @@
 package org.example.utils;
 
-import lombok.*;
-
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class ReadFile {
