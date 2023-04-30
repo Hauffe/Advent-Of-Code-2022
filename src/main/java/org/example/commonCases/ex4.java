@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ex4 {
+
+    //get float values
+    public int solution(int X, int Y, int D) {
+        float total = (((float)Y-X)/D);
+        return (int)Math.ceil(total);
+    }
     public int solution(int[] A) {
         List<Integer> values = new ArrayList<>();
         Integer unpaired = 0;
