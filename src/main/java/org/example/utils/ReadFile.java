@@ -13,6 +13,7 @@ public class ReadFile {
         files.put("Day2", commonDir + "day2\\rockPaperSisors.txt");
         files.put("Day3", commonDir + "day3\\Rucksack.txt");
         files.put("Day4", commonDir + "day4\\CampCleanup.txt");
+        files.put("Day5", commonDir + "day5\\SupplyStacks.txt");
     }
 
     public static ReadFile getInstance(){
